@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1b1b1b;
+    font-family: 'Arial Narrow Bold', sans-serif;
+
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container button {
+    border: none;
+    outline: none;
+    padding: 15px 100px;
+    background: #2287ed;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background: #2889ea;
+    box-shadow: 0 0 1px #316FF6, 0 0 10px #316FF6, 0 0 20px #316FF6;
+	color: #eee7e7;
+    
+}
+
+.button-container button:active {
+    background: #1781ec
+}

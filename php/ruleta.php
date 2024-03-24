@@ -99,7 +99,7 @@
             <div class="button-container">
                 <button type="button" id="spin">¡Girar!</button>
                 
-                <button disabled  type="button" id="reset">¡Ganaste!</button>
+                <button disabled  type="button" id="reset">Felicidades <br>¡Ganaste!</button>
             </div>
 
         </section>
